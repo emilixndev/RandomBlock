@@ -1,0 +1,5 @@
+name: Randomblock
+version: ${project.version}
+main: fr.isyde.randomblock.Main
+api-version: 1.16
+authors: [ iSyde ]

@@ -1,0 +1,31 @@
+EntityD:
+    - "test"
+
+blocksD:
+    - "DIRT"
+blocksT:
+    DIRT:
+        DIRT
+blacklist:
+    - "SPAWN_EGG"
+    - "AIR"
+    - "BANNER"
+    - "BED"
+    - "POTTED"
+    - "WALL"
+    - "MUSIC_DISC"
+    - "STEM"
+    - "MAP"
+    - "BEDROCK"
+    - "COMMAND_BLOCK"
+    - "WIRE"
+    - "BUSH"
+    - "KNOWLEDGE_BOOK"
+    - "BEETROOTS"
+    - "PLANT"
+    - "DEBUG_STICK"
+    - "PANE"
+    - "DROPLIGHT"
+
+
+
