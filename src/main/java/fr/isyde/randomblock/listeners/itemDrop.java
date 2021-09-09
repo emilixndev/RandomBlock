@@ -223,11 +223,16 @@ public class itemDrop implements Listener {
         //on annule le drop
 
 
+
+
         //on crée la variable bool
         boolean verif = true;
+        if(test != null){
+
 
         // pour chaque item drop
         for (ItemStack i : test) {
+
             //verif si il à déja était drop
             for(String string : main.getConfig().getStringList("blocksD")){
                 if (string.equalsIgnoreCase(i.getType().name().toUpperCase().replace(" ","_"))){
@@ -262,10 +267,11 @@ public class itemDrop implements Listener {
 
 
                 event.getEntity().getWorld().dropItemNaturally(event.getEntity().getLocation(),t);
+
                 event.getDrops().clear();
                 //  p.sendMessage("LE DROP"+t.getType().name());
 
-
+                break;
             }else{
                 blockDetruit=i.getType().name();
 
@@ -371,6 +377,7 @@ public class itemDrop implements Listener {
 
 
 
+        }
         }
 
     }
