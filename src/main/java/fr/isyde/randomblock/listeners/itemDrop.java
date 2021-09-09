@@ -254,14 +254,6 @@ public class itemDrop implements Listener {
 
                 //crée en item
 
-
-
-
-
-
-
-
-
                 ItemStack t = new ItemStack(Material.getMaterial((main.getConfig().getString("blocksT."+i.getType().name().toUpperCase()))));
 
 
